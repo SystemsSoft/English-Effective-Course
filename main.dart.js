@@ -9100,9 +9100,11 @@ return new A.iB(r,s.h(a,"videoAulaName"),s.h(a,"codClass"))},
 iB:function iB(a,b,c){this.a=a
 this.c=b
 this.d=c},
-iO:function iO(a,b,c){this.a=a
-this.b=b
-this.d=c},
+iO:function iO(a,b,c,d){var _=this
+_.a=a
+_.b=b
+_.d=c
+_.e=d},
 lE:function lE(a){this.a=a},
 HV:function HV(){this.a=""},
 xv:function xv(a,b){this.c=a
@@ -43452,7 +43454,7 @@ s===$&&A.b()
 s=A.e7(p,A.atf(s,B.CW),B.p,p,p,p,p,B.lO,p,p)
 r=q.r?q.UR():A.e7(p,p,B.p,p,p,p,p,p,p,p)
 return A.e7(p,A.lm(A.a([B.Pu,B.KN,o,B.jP,s,B.KM,new A.GB(new A.agF(q),p,p,p,p,B.p,p,!1,p,!0,B.Pk,p),r],t.p),B.bc,B.ja,B.cl),B.p,B.c9,p,p,p,p,p,p)},
-UR(){return A.W2(A.a([A.mo(B.Po,new A.agH(this),null)],t.p),B.Pj,B.Pp)}}
+UR(){return A.W2(A.a([A.mo(B.Pp,new A.agH(this),null)],t.p),B.Pj,B.Pq)}}
 A.agE.prototype={
 $0(){this.a.d=this.b},
 $S:0}
@@ -43512,9 +43514,13 @@ return A.e7(s,A.ane(new A.agt(this),this.d.length),B.p,B.eM,s,s,s,s,s,s)},
 a9f(){var s=this.c
 s.toString
 A.ap6(new A.agA(this),s,t.z)},
-Lv(){var s=this
-if(s.f){s.wu("https://exercicios-aulas.s3.sa-east-1.amazonaws.com/exercicios/"+s.r.a+".pdf")
-s.aaB()}},
+Lv(){var s,r,q,p=this,o="https://exercicios-aulas.s3.sa-east-1.amazonaws.com/exercicios/"
+if(p.f){s=p.r
+r=s.e
+s=""+s.a
+q=r?o+s+".docx":o+s+".pdf"
+p.wu(q)
+p.aaB()}},
 aaB(){this.ae(new A.agB(this))},
 wu(a){return this.aaJ(a)},
 aaJ(a){var s=0,r=A.Q(t.z)
@@ -43549,7 +43555,7 @@ A.agA.prototype={
 $1(a){var s=null,r=this.a,q=r.r
 q=q==null?s:q.b
 q=A.dV(q==null?"":q,s,s,s,s,s,s)
-return A.W2(A.a([A.mo(B.Pr,new A.agy(r,a),s),A.mo(B.Pn,new A.agz(r,a),s)],t.p),q,B.Pl)},
+return A.W2(A.a([A.mo(B.Po,new A.agy(r,a),s),A.mo(B.Pn,new A.agz(r,a),s)],t.p),q,B.Pl)},
 $S:77}
 A.agy.prototype={
 $0(){var s=this.a
@@ -43652,7 +43658,7 @@ return A.V(new A.nu().xC(),$async$vw)
 case 2:q.ae(new p.ajD(q,b))
 return A.O(null,r)}})
 return A.P($async$vw,r)},
-M(a){return A.yy(A.W6(B.c9,B.dz,B.Pq),null,this.Zy())},
+M(a){return A.yy(A.W6(B.c9,B.dz,B.Pr),null,this.Zy())},
 Zy(){var s=null
 return A.e7(s,A.ane(new A.ajB(this),this.d.length),B.p,B.eM,s,s,s,s,s,s)},
 Zz(){var s=this.c
@@ -43947,7 +43953,7 @@ $S:108}
 A.a_K.prototype={
 $1(a){var s=J.at(a),r=s.h(a,"id"),q=s.h(a,"nomeExercicio")
 s.h(a,"className")
-return new A.iO(r,q,s.h(a,"codClass"))},
+return new A.iO(r,q,s.h(a,"codClass"),s.h(a,"isDoc"))},
 $S:268}
 A.a_L.prototype={
 $1(a){return new A.lE(J.bh(a,"id"))},
@@ -86681,10 +86687,10 @@ B.Pk=new A.dg("Login",null,null,null,null,null,null,null,null)
 B.Pl=new A.dg("Exerc\xedcios",null,null,null,null,null,null,null,null)
 B.Pm=new A.dg("Videos",null,B.hb,null,null,null,null,null,null)
 B.Pn=new A.dg("Cancelar",null,null,null,null,null,null,null,null)
-B.Po=new A.dg("Ok",null,null,null,null,null,null,null,null)
-B.Pp=new A.dg("Falha na Autentica\xe7\xe3o",null,null,null,null,null,null,null,null)
-B.Pq=new A.dg("Aulas",null,B.hb,null,null,null,null,null,null)
-B.Pr=new A.dg("Baixar Pdf",null,null,null,null,null,null,null,null)
+B.Po=new A.dg("Baixar",null,null,null,null,null,null,null,null)
+B.Pp=new A.dg("Ok",null,null,null,null,null,null,null,null)
+B.Pq=new A.dg("Falha na Autentica\xe7\xe3o",null,null,null,null,null,null,null,null)
+B.Pr=new A.dg("Aulas",null,B.hb,null,null,null,null,null,null)
 B.Ps=new A.dg("Exerc\xedcios em PDF",null,B.hb,null,null,null,null,null,null)
 B.NZ=new A.t(!0,B.j,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Pu=new A.dg("Effective English Course",null,B.NZ,null,null,null,null,null,null)
