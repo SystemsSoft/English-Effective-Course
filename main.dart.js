@@ -43454,7 +43454,7 @@ s===$&&A.b()
 s=A.e7(p,A.atf(s,B.CW),B.p,p,p,p,p,B.lO,p,p)
 r=q.r?q.UR():A.e7(p,p,B.p,p,p,p,p,p,p,p)
 return A.e7(p,A.lm(A.a([B.Pu,B.KN,o,B.jP,s,B.KM,new A.GB(new A.agF(q),p,p,p,p,B.p,p,!1,p,!0,B.Pk,p),r],t.p),B.bc,B.ja,B.cl),B.p,B.c9,p,p,p,p,p,p)},
-UR(){return A.W2(A.a([A.mo(B.Pp,new A.agH(this),null)],t.p),B.Pj,B.Pq)}}
+UR(){return A.W2(A.a([A.mo(B.Pp,new A.agH(this),null)],t.p),B.Pj,B.Pr)}}
 A.agE.prototype={
 $0(){this.a.d=this.b},
 $S:0}
@@ -43508,7 +43508,7 @@ return A.V(new A.nu().xz(),$async$vu)
 case 2:q.ae(new p.agv(q,b))
 return A.O(null,r)}})
 return A.P($async$vu,r)},
-M(a){return A.yy(A.W6(B.c9,B.dz,B.Ps),null,this.a_c())},
+M(a){return A.yy(A.W6(B.c9,B.dz,B.Pq),null,this.a_c())},
 a_c(){var s=null
 return A.e7(s,A.ane(new A.agt(this),this.d.length),B.p,B.eM,s,s,s,s,s,s)},
 a9f(){var s=this.c
@@ -43658,7 +43658,7 @@ return A.V(new A.nu().xC(),$async$vw)
 case 2:q.ae(new p.ajD(q,b))
 return A.O(null,r)}})
 return A.P($async$vw,r)},
-M(a){return A.yy(A.W6(B.c9,B.dz,B.Pr),null,this.Zy())},
+M(a){return A.yy(A.W6(B.c9,B.dz,B.Ps),null,this.Zy())},
 Zy(){var s=null
 return A.e7(s,A.ane(new A.ajB(this),this.d.length),B.p,B.eM,s,s,s,s,s,s)},
 Zz(){var s=this.c
@@ -86689,9 +86689,9 @@ B.Pm=new A.dg("Videos",null,B.hb,null,null,null,null,null,null)
 B.Pn=new A.dg("Cancelar",null,null,null,null,null,null,null,null)
 B.Po=new A.dg("Baixar",null,null,null,null,null,null,null,null)
 B.Pp=new A.dg("Ok",null,null,null,null,null,null,null,null)
-B.Pq=new A.dg("Falha na Autentica\xe7\xe3o",null,null,null,null,null,null,null,null)
-B.Pr=new A.dg("Aulas",null,B.hb,null,null,null,null,null,null)
-B.Ps=new A.dg("Exerc\xedcios em PDF",null,B.hb,null,null,null,null,null,null)
+B.Pq=new A.dg("Exerc\xedcios",null,B.hb,null,null,null,null,null,null)
+B.Pr=new A.dg("Falha na Autentica\xe7\xe3o",null,null,null,null,null,null,null,null)
+B.Ps=new A.dg("Aulas",null,B.hb,null,null,null,null,null,null)
 B.NZ=new A.t(!0,B.j,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Pu=new A.dg("Effective English Course",null,B.NZ,null,null,null,null,null,null)
 B.I7=new A.j(0.056,0.024)
